@@ -1,0 +1,144 @@
+body {
+	background-color: bg-dark;
+}
+
+section {
+	padding-top: 4rem;
+}
+
+span {
+	color: #03A9F4;
+}
+
+iframe {
+	width: 100%;
+	height: 500px;
+	border: solid #03A9F4;
+}
+
+/* Nav */
+.navbar .nav-item {
+	margin-left: 45px;
+}
+
+.navbar .nav-item .nav-link {
+	padding: 5px 0;
+	position: relative;
+}
+
+.navbar .nav-item .nav-link::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	background-color: #03A9F4;
+	transition: all 0.5s ease-in-out;
+	transform: scale(0);
+}
+
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before {
+	transform: scale(1);
+}
+
+/* HOME */
+.home h2 {
+	color: #03A9F4;
+}
+
+.home h1 {
+	color: #ffffff;
+}
+
+.home p {
+	color: #cccccc;
+}
+
+.home a {
+ 	color: #ffffff;
+}
+
+/*Project*/
+.project p {
+	color: #000000;
+}
+.project h2 {
+	color: #ffffff;
+}
+
+#project .ho:hover {
+	text-shadow: none !important;
+	box-sizing: border-box !important;
+	cursor: pointer !important;
+	transition: all 0.3s ease !important;
+	-webkit-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+	z-index: 2;
+	border-color: rgb(13, 110, 253);
+	box-shadow: 0 0 10px 2px rgb(13, 110, 253,.6);
+}
+
+#project .card {
+	transition: box-shadow .5s, border-color 1s;
+}
+
+/*Skill*/
+.softskill h2 {
+	color: #ffffff;
+}
+
+.softskill img {
+	width: 150px;
+	height: 150px;
+}
+
+.softskill h4 {
+	color: #ffffff;
+}
+
+#skill {
+	width: 100%;
+	color: #ffffff;
+}
+
+#skill img {
+	width: 12%;
+	margin: 10px;
+}
+
+#skill img:hover {
+	text-shadow: none !important;
+	box-sizing: border-box !important;
+	transition: all 0.3s ease !important;
+	-webkit-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+	z-index: 2;
+	border-color: rgb(13, 110, 253);
+	box-shadow: 0 0 10px 2px rgb(13, 110, 253,.6);
+}
+
+.skill h2 {
+	color: #ffffff;
+}
+
+/*Contact me */
+#contact h2 {
+	color: #ffffff;
+}
+
+#contact .form-label {
+	color: #ffffff;
+}
+
+#contact .box {
+	height: 430px;
+	border: solid #03A9F4;
+	box-shadow: 0 20px 35px rgb(0,0,0,0.3);
+	border-radius: 16px;
+}
+
+#contact h3, p {
+	color: #ffffff;
+}
